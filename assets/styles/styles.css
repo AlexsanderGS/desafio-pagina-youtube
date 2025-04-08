@@ -1,4 +1,6 @@
-@import url(/assets/styles/reset.css);
+*{
+    font-family: 'Roboto', sans-serif;
+}
 
 body {
     background-color: whitesmoke;
@@ -83,6 +85,56 @@ body {
 .profile-btn img {
     width: 24px;
     height: 24px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-video {
+    width: 952px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.img__video {
+    display: block;
+    text-decoration: none;
+}
+
+.img__video img{
+    border-radius: 15px;
+}
+
+.title__video p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+}
+
+.views__text{
+    width: 952px;
+    text-align: left;
+    margin-top: 8px;
+}
+
+.views__text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.video__description {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
 
 
